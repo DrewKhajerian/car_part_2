@@ -1,0 +1,44 @@
+<%= form_for @survey do |f| %>
+  <% if @survey.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@survey.errors.count, "error") %> prohibited this reservation from being saved:</h2>
+      <ul>
+        <% @survey.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div class="inline">
+    <div class="field">
+      <%= f.label :price_range %><br />
+      <%= f.select :price_range, @PRICE_RANGES %>
+    </div>
+  </div>
+  <div class="inline">
+    <div class="field">
+      <%= f.label :type %><br />
+      <%= f.select :type, @TYPES %>
+    </div>
+  </div>
+  <div class="inline">
+    <div class="field">
+      <%= f.label :transmission %><br />
+      <%= f.select :transmission, @TRANS %>
+    </div>
+  </div>
+  <div class="inline">
+    <div class="field">
+      <%= f.label :safety %><br />
+      <%= f.select :safety, @SAFETY %>
+    </div>
+  <div class="inline">
+    <div class="field">
+      <%= f.label :fuel_type %><br />
+      <%= f.select :fuel_type, @FUEL_TYPES %>
+    </div>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

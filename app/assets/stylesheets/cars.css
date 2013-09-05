@@ -1,0 +1,102 @@
+/*-----------TABLE_INDEX--------------*/
+
+.types {margin-top: 30px}
+
+.cars-index, .cars-show {
+	width: 80%;
+	margin-top: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 75px;
+}
+
+.cars-title {
+	width:300px;
+}
+
+.cars-index small {
+	color:gray;
+	margin-bottom: 50px;
+}
+
+.vehicle-type {
+	border-bottom: solid #F0F0F0 2px;
+	width: 100%;
+	cursor: pointer;
+	padding:5px;
+}
+
+span {
+	font-size: 10px;
+	color:#DBDBDB;
+}
+
+#car-table {
+	margin-top:20px;
+	margin-bottom: 20px;
+	display: none;
+}
+
+#car-table tr td:first-child {
+	width:75px;
+}
+
+#car-table img {
+	width:75px;
+}
+
+#car-table th {
+	padding: 12px;
+	vertical-align: center;
+	text-align: center;
+	background-color: #F5FAFC;
+	border-bottom: solid #DBDBDB 1px;
+}
+
+#car-table td {
+	padding: 5px 10px 5px 10px;
+	vertical-align: center;
+	text-align: center;
+	background-color: #FFFFFA;
+}
+
+/*-----------TABLE_SHOW--------------*/
+
+img.car-images {
+	max-width: 100%;
+	height: auto;
+}
+
+.car-header {
+	float:left;
+	width:960px;
+}
+
+.car-header hr {width:700px;}
+
+.cars-show h2 {clear:left;}
+
+.box.show  {float: left;}
+
+.info {
+	margin: 10px;
+	height: 385px;
+}
+
+.car-body td {width: 130px;}
+
+.info td {
+	height: 40px;
+	padding: 5px;
+	width: 130px;
+	font-size: 12px;
+}
+
+.info td a:hover {
+	text-decoration: none;
+	color:orange;
+}
+
+.box:last-child {margin-bottom: 60px;}
+
+

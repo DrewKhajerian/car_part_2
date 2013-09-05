@@ -1,0 +1,50 @@
+<div class="cars-index">
+	<div class="cars-title">
+		<h1>Car Index</h1>
+		<small>
+			Click the class names to display each individually<br> 
+			or click Display All button
+		</small><br>
+	</div>
+	<div class="display-button">
+		<button class="myButton display-all">Display All</button>
+	</div>
+
+	<% @TYPES.each do |vehicle_class| %>
+		<div class="types">
+			<h4 class="vehicle-type"><%= vehicle_class %></h4>
+
+			<table id="car-table">
+				<thead>
+					<tr>
+						<th>Image</th>
+						<th>Make</th>
+						<th>Model</th>
+						<th>Price</th>
+						<th>Horsepower</th>
+						<th>Cylinders</th>
+						<th>Consumer Reports<br> Recommendation</th>
+						<th>Saftey Rating</th>
+					</tr>
+				</thead>
+				<tbody>
+				<% @cars.each do |car| %>
+					<% if car.vehicle_type == vehicle_class %>
+						<tr>
+							<td><img src="/assets/cars/<%=car.name%>.jpg" /> </td>
+							<td><%= car.company %></td>
+							<td><%= link_to car.name, car_path(car) %></td>
+							<td>$<%= number_with_delimiter(car.formatted_price, :delimiter => ',')%></td>
+							<td><%= car.horsepower %></td>
+							<td><%= car.cylinders %></td>
+							<td><%= car.consumer_rec %></td>
+							<td><%= car.safety %></td>
+						</tr>
+					<% end %>
+				<% end %>
+				</tbody>
+			</table>
+		</div>
+	<% end %>
+
+</div>

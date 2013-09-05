@@ -1,0 +1,75 @@
+<div class="survey-results">
+
+	<h1>Recommendations</h1>
+	<hr>
+
+	<div id="cars-result">	
+		<% if @results_hash.length <= 1 %>
+			<%= %>
+		<% end %>
+		<% @results_hash.reverse_each do |id,match| %>
+			<% car = Car.find(id) %>
+			<div class="box">
+
+				<p><strong><%= match %>% Match</strong></p>
+				<a href="/cars/<%=car.id%>">
+					<img src='/assets/cars/<%= car.name %>.jpg'>
+				</a>
+				<p><strong>
+					<%= car.company%> <%= link_to car.name, car_path(car) %>
+				</strong></p>
+
+				<hr>
+
+				<table id="results-table">
+					<tr>
+						<td>Price:  </td>
+						<td>$<%= number_with_delimiter(car.formatted_price, :delimiter => ',')%></td>
+					</tr>
+					<tr>
+						<td>Class:</td>
+						<td><%= car.vehicle_type %></td>
+					</tr>
+					<tr>
+						<td>Horsepower:</td>
+						<td><%= car.horsepower %></td>
+					</tr>
+					<tr>
+						<td>Fuel Type:</td>
+						<td><%= car.fuel_type %></td>
+					</tr>
+				</table>
+
+				<small class="show-click">more info</small>
+
+				<table class="expand">
+					<tr>
+						<td>Transission:</td>
+						<td><%= car.transmission %></td>
+					</tr>
+					<tr>
+						<td>Drive Train:</td>
+						<td><%= car.drive_train %></td>
+					</tr>
+					<tr>
+						<td>Cynlinders:</td>
+						<td><%= car.cylinders %></td>
+					</tr>
+					<tr>
+						<td>Consumer Reports Recommendation:</td>
+						<td><%= car.consumer_rec %></td>
+					</tr>
+					<tr>
+						<td>Safety Rating:</td>
+						<td><%= car.safety %></td>
+					</tr>
+					<tr>
+						<td>Reliability:</td>
+						<td><%= car.reliability %></td>
+					</tr>
+				</table>
+
+			</div>
+		<% end %>
+	</div>
+</div>

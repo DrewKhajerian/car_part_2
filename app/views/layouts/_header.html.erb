@@ -1,0 +1,30 @@
+<header>
+  <div class="span2">
+    <h1 class="logo">
+      <a href="/"><img src="/assets/Logo.png"></a>
+    </h1>
+  </div>
+
+  <div class="main-nav">
+    <nav>
+    	<ul class="nav">
+        <li><a href="/#how">How it Works</a></li>
+      	<li><%= link_to "Cars", cars_path %></li>
+        <li><a href="/#mission">Mission</a></li>
+  		</ul>
+    </nav>
+  </div>
+
+  <div class="right-nav">
+    <ul>
+      <% if current_user %>
+        <li class="pull-right login"><%= link_to "Logout", session_path %></li>
+      <% else %>
+        <li class="pull-right">
+          <button class='btn'><%= link_to "Sign Up", new_user_path %></button>
+        </li>
+        <li class="pull-right login"><%= link_to "Log In", new_session_path %></li>
+      <% end %>
+    </ul>
+  </div>
+</header>

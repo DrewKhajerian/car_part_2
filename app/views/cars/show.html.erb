@@ -1,0 +1,154 @@
+<div class="cars-show">
+	<div class="car-header">
+		<h1><%= @car.company %> <%= @car.name %></h1>
+		<hr>
+		<img class="car-images" src="/assets/cars/<%= @car.name%>.jpg">
+		<hr>
+	</div>
+
+	
+	<h2>Spec Tables</h2>
+	<a name="stay"></a>
+	<div class="specs">
+		<div class="box show">
+			<table class="general info">
+				<tbody class="car-body">
+					<tr>
+						<td><a href="#stay" class="popper" data-popbox="class-pop">Class</a></td>
+						<div id="class-pop" class="popbox">
+					    <p><%= @class_desc %></p>
+						</div>
+						<td><%= @car.vehicle_type %></td>
+					</tr>
+					<tr>
+						<td><a href="#stay" class="popper" data-popbox="price-pop">Price</a></td>
+						<div id="price-pop" class="popbox">
+					    <p><%= @price_desc %></p>
+						</div>
+						<td>$<%= number_with_delimiter(@car.formatted_price, :delimiter => ',')%></td>
+					</tr>
+					<tr>
+						<td><a href="#stay" class="popper" data-popbox="fuel-pop">Fuel Type</a></td>
+						<div id="fuel-pop" class="popbox">
+					    <p><%= @fuel_desc %></p>
+						</div>
+						<td><%= @car.fuel_type %></td>
+					</tr>
+					<tr>
+						<td><a href="#stay" class="popper" data-popbox="consum-pop">Fuel Consumption</a></td>
+						<div id="consum-pop" class="popbox">
+					    <p><%= @consum_desc %></p>
+						</div>
+						<td><%= @car.fuel_consumption %></td>
+					</tr>
+					<tr>
+						<td><a href="#stay" class="popper" data-popbox="trans-pop">Transmission</a></td>
+						<div id="trans-pop" class="popbox">
+					    <p><%= @trans_desc %></p>
+						</div>
+						<td><%= @car.transmission %></td>
+					</tr>
+
+				</tbody>
+			</table>
+		</div>
+
+
+		<div class="box show">
+			<table class="engine info">
+				<tbody>
+					<tr>
+						<td><a href="#stay" class="popper" data-popbox="horse-pop">Horsepower</a></td>
+						<div id="horse-pop" class="popbox">
+					    <p><%= @horse_desc %></p>
+						</div>
+						<td><%= @car.horsepower %></td>
+					</tr>
+					<tr>
+						<td><a href="#stay" class="popper" data-popbox="cylinder-pop">Cylinders</a></td>
+						<div id="cylinder-pop" class="popbox">
+					    <p><%= @cylinder_desc %></p>
+						</div>
+						<td><%= @car.cylinders %></td>
+					</tr>
+
+					<% if @car.vehicle_type == "Truck (full-size)" %>
+						<tr>
+							<td><a href="#stay" class="popper" data-popbox="tow-pop">Towing</a></td>
+							<div id="tow-pop" class="popbox">
+						    <p><%= @tow_desc %></p>
+							</div>
+							<td><%= @car.towing %></td>
+						</tr>
+					<% end %>
+
+					<tr>
+						<td><a href="#stay" class="popper" data-popbox="accel-pop">Acceleration</a></td>
+							<div id="accel-pop" class="popbox">
+						    <p><%= @accel_desc %></p>
+							</div>
+						<td><%= @car.acceleration %></td>
+					</tr>
+					<tr>
+						<td><a href="#stay" class="popper" data-popbox="dt-pop">Drive Train</a></td>
+						<div id="dt-pop" class="popbox">
+					    <p><%= @dt_desc %></p>
+						</div>
+						<td><%= @car.drive_train %></td>
+					</tr>
+					<tr>
+						<td><a href="#stay" class="popper" data-popbox="relia-pop">Reliability</a></td>
+						<div id="relia-pop" class="popbox">
+					    <p><%= @relia_desc %></p>
+						</div>
+						<td><%= @car.reliability %></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div class="box show">
+			<table class="warranty info">
+				<tbody>
+					<tr>
+						<td><a href="#stay" class="popper" data-popbox="bump-pop">Bumper to Bumper</a></td>
+						<div id="bump-pop" class="popbox">
+					    <p><%= @bump_desc %></p>
+						</div>
+						<td><%= @car.bump_to_bump %></td>
+					</tr>
+					<tr>
+						<td><a href="#stay" class="popper" data-popbox="pt-pop">Power Train</a></td>
+						<div id="pt-pop" class="popbox">
+					    <p><%= @pt_desc %></p>
+						</div>
+						<td><%= @car.war_power %></td>
+					</tr>
+					<tr>
+						<td><a href="#stay" class="popper" data-popbox="rust-pop">Rust and Corrosion</a></td>
+						<div id="rust-pop" class="popbox">
+					    <p><%= @rust_desc %></p>
+						</div>
+						<td><%= @car.war_rust %></td>
+					</tr>
+					<tr>
+						<td><a href="#stay" class="popper" data-popbox="safety-pop">Safety Rating</a></td>
+						<div id="safety-pop" class="popbox">
+					    <p><%= @safety_desc %></p>
+						</div>
+						<td><%= @car.safety %></td>
+					</tr>
+					<tr>
+						<td><a href="#stay" class="popper" data-popbox="rec-pop">Consumer Recommendation</a></td>
+						<div id="rec-pop" class="popbox">
+					    <p><%= @rec_desc %></p>
+						</div>
+						<td><%= @car.consumer_rec %></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+	</div>
+
+</div>

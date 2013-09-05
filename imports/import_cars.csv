@@ -1,0 +1,258 @@
+company,model,price,vehicle_type,transmission,cylinders,horsepower,acceleration,drive_train,fuel_type,fuel_consumption,towing,war_comp,war_power,war_rust,safety,reliability,consumer_rec
+Acura,ILX,29.7,Compact (Sedan),Automatic with Manual Option,4,9.7,9.7,Front-wheel Drive,Gas,7.2,N/A,"4 years, 80k","5 years, 100k","5 years, unlimited",Good,N/A,Yes
+Acura,MDX,51.9,SUV (full-size),Automatic with Manual Option,6,N/A,N/A,All-wheel Drive,Gas,9.6,5000,"4 years, 80k","5 years, 100k","5 years, unlimited",N/A,N/A,N/A
+Acura,RDX,43.1,SUV (mid-size),Automatic with Manual Option,6,6.9,6.8,All-wheel Drive,Gas,9.2,1500,"4 years, 80k","5 years, 100k","5 years, unlimited",Good,Good,Yes
+Acura,RLX,51.9,Full-Size (Sedan),Automatic with Manual Option,6,6.8,6.7,Front-wheel Drive,Gas,8.6,N/A,"4 years, 80k","5 years, 100k","5 years, unlimited",Good,Very Good,No
+Acura,TL,41.9,Mid-size (Sedan),Automatic with Manual Option,6,7.1,7,Front-wheel Drive,Gas,8.6,N/A,"4 years, 80k","5 years, 100k","5 years, unlimited",Good,Very Good,Yes
+Acura,TSX,36,Mid-size (Sedan),Manual,4,8.6,8.6,Front-wheel Drive,Gas,8.5,N/A,"4 years, 80k","5 years, 100k","5 years, unlimited",Good,Very Good,Yes
+Acura,ZDX,58.7,Crossover,Automatic with Manual Option,N/A,N/A,N/A,All-wheel Drive,Gas,10.9,1500,"4 years, 80k","5 years, 100k","5 years, unlimited",N/A,N/A,N/A
+Audi,A3,39.5,Hatchback,Automatic with Manual Option,4,200,6.7,All wheel drive,Gas,8.6,N/A,"4 years, 80k","4 years, 80k","12 years, unlimited",Good,Very Good,Yes
+Audi,A3,39.1,Hatchback,Automatic with Manual Option,4,140,8.8,Front-wheel Drive,Diesel,5.7,N/A,"4 years, 80k","4 years, 80k","12 years, unlimited",Good,N/A,N/A
+Audi,A4,44,Mid-size (Sedan),Automatic with Manual Option,4,211,6.7,All-wheel Drive,Gas,7.9,N/A,"4 years, 80k","4 years, 80k","12 years, unlimited",Good,Very Good,Yes
+Audi,A4,47.8,Crossover,Automatic with Manual Option,4,211,6.7,All-wheel Drive,Gas,8.9,1680,"4 years, 80k","4 years, 80k","12 years, unlimited",N/A,Very Good,Yes
+Audi,A5,50,Mid-size (Sedan),Automatic with Manual Option,4,211,6.6,All-wheel Drive,Gas,7.9,N/A,"4 years, 80k","4 years, 80k","12 years, unlimited",N/A,Very Good,Yes
+Audi,A6,62.5,Mid-Size (Sedan),Automatic with Manual Option,6,310,5.5,All-wheel Drive,Gas,9.3,N/A,"4 years, 80k","4 years, 80k","12 years, unlimited",Good,Good,Yes
+Audi,A7,72,Mid-size (Sedan),Automatic with Manual Option,6,310,5.6,All-wheel Drive,Gas,9.4,N/A,"4 years, 80k","4 years, 80k","12 years, unlimited",N/A,Very Good,No
+Audi,A8,93,Full-size (Sedan),Automatic with Manual Option,6,333,5.7,All-wheel Drive,Gas,10,N/A,"4 years, 80k","4 years, 80k","12 years, unlimited",N/A,Very Good,No
+Audi,Q5,43,SUV (mid-size),Automatic with Manual Option,4,211,7.2,All-wheel Drive,Gas,8.9,4400,"4 years, 80k","4 years, 80k","12 years, unlimited",Good,Good,Yes
+Audi,Q5,59,SUV (mid-size),Automatic with Manual Option,4,211,7,All-wheel Drive,Hybrid,7.8,N/A,"4 years, 80k","4 years, 80k","12 years, unlimited",Good,Good,Yes
+Audi,Q7,61,SUV (full-size),Automatic with Manual Option,6,280,7.9,All-wheel Drive,Gas,11.5,6600,"4 years, 80k","4 years, 80k","12 years, unlimited",Good,N/A,No
+Audi,Q7,66,SUV (full-size),Automatic with Manual Option,6,240,7.9,All-wheel Drive,Diesel,9.3,N/A,"4 years, 80k","4 years, 80k","12 years, unlimited",Good,N/A,No
+Audi,R8,137,Coupe,Manual,8,430,4.6,All-wheel Drive,Gas,17.5,N/A,"4 years, 80k","4 years, 80k","12 years, unlimited",N/A,N/A,No
+Audi,S4,55.5,Mid-size (Sedan),Automatic with Manual Option,6,333,5.1,All-wheel Drive,Gas,10.7,N/A,"4 years, 80k","4 years, 80k","12 years, unlimited",N/A,Very Good,No
+Audi,TT,52,Coupe,Automatic with Manual Option,4,211,5.5,All-wheel Drive,Gas,7.8,N/A,"4 years, 80k","4 years, 80k","12 years, unlimited",N/A,N/A,No
+BMW,1 Series Convertible,46.1,Convertible,Manual,6,230,6.7,Rear-wheel Drive,Gas,9.2,N/A,"4 years, 80k","8 years, 130k","12 years, unlimited",N/A,Good,N/A
+BMW,1 Series Coupe,38.9,Coupe,Manual,6,230,6.4,Rear-wheel Drive,Gas,9.2,N/A,"4 years, 80k","8 years, 130k","12 years, unlimited",N/A,Good,Yes
+BMW,3 Series,40.5,Mid-size (Sedan),Automatic with Manual Option,4,181,7.1,Rear-wheel Drive,Gas,7.2,N/A,"4 years, 80k","8 years, 130k","12 years, unlimited",Good,Excellent,Yes
+BMW,5 Series,59.4,Mid-size (Sedan),Automatic with Manual Option,4,241,6.5,Rear-wheel Drive or AWD,Gas,7.2,N/A,"4 years, 80k","8 years, 130k","12 years, unlimited",Good,Good,Yes
+BMW,5 Series Gran Tourismo,73.3,Hatchback,Automatic with Manual Option,6,300,6.5,All-wheel Drive,Gas,9.5,N/A,"4 years, 80k","8 years, 130k","12 years, unlimited",N/A,N/A,N/A
+BMW,6 Series Coupe,101.7,Coupe,Automatic with Manual Option,8,445,4.5,All-wheel Drive,Gas,11,N/A,"4 years, 80k","8 years, 130k","12 years, unlimited",N/A,N/A,N/A
+BMW,6 Series Convertible,112.8,Convertible,Automatic with Manual Option,8,445,4.6,All-wheel Drive,Gas,11,N/A,"4 years, 80k","8 years, 130k","12 years, unlimited",N/A,N/A,N/A
+BMW,7 Series,109.5,Full-Size (Sedan),Automatic with Manual Option,6,315,5.7,All-wheel Drive,Gas,9.5,N/A,"4 years, 80k","8 years, 130k","12 years, unlimited",N/A,Poor,No
+BMW,X1,39.9,SUV (small-size),Automatic with Manual Option,4,241,6.6,All-wheel Drive,Gas,7.6,N/A,"4 years, 80k","8 years, 130k","12 years, unlimited",Good,N/A,N/A
+BMW,X3,45.7,SUV (mid-size),Automatic with Manual Option,4,241,7,All-wheel Drive,Gas,8.5,3000,"4 years, 80k","8 years, 130k","12 years, unlimited",Good,N/A,N/A
+BMW,X5,64.7,SUV (full-size),Automatic with Manual Option,6,300,6.8,All-wheel Drive,Gas,11.1,6000,"4 years, 80k","8 years, 130k","12 years, unlimited",Good,Good,Yes
+BMW,X6,69.7,Crossover,Automatic with Manual Option,6,300,6.7,All-wheel Drive,Gas,11.1,N/A,"4 years, 80k","8 years, 130k","12 years, unlimited",N/A,N/A,N/A
+BMW,Z4,57.2,Convertible,Manual,4,241,5.7,Rear-wheel Drive,Gas,7.8,N/A,"4 years, 80k","8 years, 130k","12 years, unlimited",N/A,N/A,N/A
+Buick,Enclave,46,SUV (full-size),Automatic with Manual Option,6,288,7.9,All-wheel Drive,Gas,10.6,4500,"4 years, 80k","5 years, 100k","6 years, 160k",Good,Good,Yes
+Buick,Encore,28.7,SUV (small-size),Automatic,4,138,11.4,Front-wheel Drive,Gas,7.1,N/A,"4 years, 80k","5 years, 100k","6 years, 160k",Good,N/A,No
+Buick,Lacrosse,46.5,Full-Size (Sedan),Automatic,6,303,7.5,Front-wheel Drive,Gas,9.8,N/A,"4 years, 80k","5 years, 100k","6 years, 160k",Good,Poor,No
+Buick,Regal,38.4,Mid-size (Sedan),Automatic,4,182,N/A,Front-wheel Drive,Gas,7,N/A,"4 years, 80k","5 years, 100k","6 years, 160k",N/A,N/A,N/A
+Buick,Verano,24.5,Compact (Sedan),Automatic,4,180,8.8,Front-wheel Drive,Gas,8.3,N/A,"4 years, 80k","5 years, 100k","6 years, 160k",Good,Poor,No
+Cadillac,ATS,37.2,Mid-size (Sedan),Manual,4,272,N/A,Rear-wheel Drive,Gas,7.8,N/A,"4 years, 80k","6 years, 110k","6 years, Unlimited",N/A,N/A,N/A
+Cadillac,CTS Coupe,44.5,Coupe,Automatic with Manual Option,6,318,7,Rear-wheel Drive,Gas,9.3,N/A,"4 years, 80k","6 years, 110k","6 years, Unlimited",Good,Very Good,Yes
+Cadillac,CTS Wagon,43.2,Wagon,Automatic with Manual Option,6,270,7,Rear-wheel Drive,Gas,9.9,1000,"4 years, 80k","6 years, 110k","6 years, Unlimited",Good,Very Good,Yes
+Cadillac,CTS Sedan,46.7,Mid-size (Sedan),Automatic with Manual Option,6,270,7,Rear-wheel Drive,Gas,9.5,N/A,"4 years, 80k","6 years, 110k","6 years, Unlimited",Good,Very Good,Yes
+Cadillac,Escalade,82,SUV (full-size),Automatic with Manual Option,8,403,7.8,All-wheel Drive,Gas,12.9,8100,"4 years, 80k","6 years, 110k","6 years, Unlimited",N/A,Good,No
+Cadillac,SRX,42,Crossover,Automatic with Manual Option,6,308,7.4,All-wheel Drive,Gas,10.7,2500,"4 years, 80k","6 years, 110k","6 years, Unlimited",Good,Fair,No
+Cadillac,XTS,50.6,Full-Size (Sedan),Automatic with Manual Option,6,300,7.5,Front-wheel Drive,Gas,9.9,N/A,"4 years, 80k","6 years, 110k","6 years, Unlimited",Good,N/A,No
+Chevrolet,Avalanche,49.5,Truck (full-size),Automatic,8,320,9.2,All-wheel Drive,Gas,12.1,8100,"3 years, 60k","5 years, 160k","6 years, 160k",N/A,Very Good,Yes
+Chevrolet,Camaro,29.7,Coupe,Manual,6,323,5.28,Rear-wheel Drive,Gas,12.4,N/A,"3 years, 60k","5 years, 160k","6 years, 160k",N/A,Good,Yes
+Chevrolet,Corvette,62.2,Convertible,Manual,8,430,4.45,Rear-wheel Drive,Gas,12.9,N/A,"3 years, 60k","5 years, 160k","6 years, 160k",N/A,Fair,No
+Chevrolet,Cruze,16.5,Compact (Sedan),Manual,4,138,10.87,Front-wheel Drive,Gas,8.2,N/A,"3 years, 60k","5 years, 160k","6 years, 160k",Good,Good,Yes
+Chevrolet,Equinox,28.4,SUV (mid-size),Automatic,4,182,11.08,Front-wheel Drive,Gas,9.2,"1,500","3 years, 60k","5 years, 160k","6 years, 160k",Good,Good,Yes
+Chevrolet,Impala,30,Full-Size (Sedan),Automatic,4,196,7.14,Front-wheel Drive,Gas,10.24,N/A,"3 years, 60k","5 years, 160k","6 years, 160k",Good,N/A,N/A
+Chevrolet,Malibu,26.5,Mid-Size (Sedan),Automatic,4,182,8.9,Front-wheel Drive,Gas,8.1,N/A,"3 years, 60k","5 years, 160k","6 years, 160k",Good,N/A,N/A
+Chevrolet,Orlando,21.5,SUV (small-size),Manual,4,174,N/A,Front-wheel Drive,Gas,10.4,1000,"3 years, 60k","5 years, 160k","6 years, 160k",N/A,N/A,N/A
+Chevrolet,Silverado,36.4,Truck (full-size),Automatic,6,285,N/A,All-wheel Drive,Gas,11,7100,"3 years, 60k","5 years, 160k","6 years, 160k",N/A,N/A,No
+Chevrolet,Sonic,15.1,Hatchback,Manual,4,138,9.62,Front-wheel Drive,Gas,7.7,N/A,"3 years, 60k","5 years, 160k","6 years, 160k",Good,Good,Yes
+Chevrolet,Spark,13.3,Mini Car,Manual,4,84,13.5,Front-wheel Drive,Gas,6.3,N/A,"3 years, 60k","5 years, 160k","6 years, 160k",N/A,N/A,N/A
+Chevrolet,Suburban,54.2,SUV (full-size),Automatic,8,320,8.69,Rear-wheel Drive,Gas,14.3,"7,000","3 years, 60k","5 years, 160k","6 years, 160k",N/A,Good,Yes
+Chevrolet,Tahoe,56,SUV (full-size),Automatic,8,320,8.7,All-wheel Drive,Gas,12.1,8200,"3 years, 60k","5 years, 160k","6 years, 160k",N/A,N/A,No
+Chevrolet,Traverse,37.6,SUV (full-size),Automatic,6,281,8.2,All-wheel Drive,Gas,11,5200,"3 years, 60k","5 years, 160k","6 years, 160k",Good,Good,Yes
+Chevrolet,Trax,26.7,SUV (small-size),Automatic,4,138,N/A,All-wheel Drive,Gas,7.7,N/A,"3 years, 60k","5 years, 160k","6 years, 160k",N/A,N/A,N/A
+Chevrolet,Volt,43.5,Hatchback,Automatic,N/A,150,9.73,Front-wheel Drive,Electric,N/A,N/A,"3 years, 60k","5 years, 160k","6 years, 160k",Good,Very Good,Yes
+Chrysler,200,21.7,Mid-size (Sedan),Automatic,4,173,N/A,Front-wheel Drive,Gas,8.5,N/A,"3 years, 60k","5 years, 160k","5 years, 160k",Good,Fair,No
+Chrysler,300,36,Full-size (Sedan),Automatic,6,292,7.7,Front-wheel Drive,Gas,8.7,N/A,"3 years, 60k","5 years, 160k","5 years, 160k",Good,Good,Yes
+Chrysler,Town and Country,33.2,Minivan,Automatic,6,283,8.3,Front-wheel Drive,Gas,10.3,N/A,"3 years, 60k","5 years, 160k","5 years, 160k",Good,Poor,No
+Dodge,Avenger,21.8,Mid-size (Sedan),Automatic,4,173,10.7,Front-wheel Drive,Gas,8.5,N/A,"3 years, 60k","5 years, 160k","5 years, 160k",Good,N/A,No
+Dodge,Challenger,28.8,Coupe,Automatic,6,305,7.3,Rear-wheel Drive,Gas,9.5,N/A,"3 years, 60k","5 years, 160k","5 years, 160k",N/A,Fair,No
+Dodge,Charger,31.8,Mid-size (Sedan),Automatic,6,292,7.7,Rear-wheel Drive,Gas,9.5,N/A,"3 years, 60k","5 years, 160k","5 years, 160k",Good,Fair,No
+Dodge,Dart,17.7,Compact (Sedan),Manual,4,160,11.3,Front-wheel Drive,Gas,6.8,N/A,"3 years, 60k","5 years, 160k","5 years, 160k",Good,N/A,No
+Dodge,Durango,41,SUV (full-size),Automatic,6,290,9.7,All-wheel Drive,Gas,10.9,6200,"3 years, 60k","5 years, 160k","5 years, 160k",N/A,N/A,N/A
+Dodge,Grand Caravan,29.8,Minivan,Automatic,6,283,8.3,Front-wheel Drive,Gas,10.3,3600,"3 years, 60k","5 years, 160k","5 years, 160k",Good,Good,Yes
+Dodge,Journey,23.3,SUV (mid-size),Automatic,4,173,N/A,Front-wheel Drive,Gas,9.5,2500,"3 years, 60k","5 years, 160k","5 years, 160k",N/A,N/A,N/A
+Fiat,500,15,Mini Car,Manual,4,101,11.7,Front-wheel Drive,Gas,5.7,N/A,"4 years, 80k","4 years, 80k","4 years, unlimited",Good,Good,No
+Fiat,500C,21.7,Mini Car,Manual,4,101,11.4,Front-wheel Drive,Gas,6,N/A,"4 years, 80k","4 years, 80k","4 years, unlimited",Good,Good,No
+Fiat,500L,N/A,Mini Car,Manual,4,160,N/A,Front-wheel Drive,Gas,N/A,N/A,"4 years, 80k","4 years, 80k","4 years, unlimited",N/A,N/A,N/A
+Ford,Edge,40,SUV (mid-size),Automatic with Manual Option,6,285,8.4,All-wheel Drive,Gas,9.8,3500,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Poor,No
+Ford,Escape,30.9,SUV (mid-size),Automatic with Manual Option,4,178,N/A,All-wheel Drive,Gas,N/A,2000,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,N/A,N/A
+Ford,Expedition,47.8,SUV (full-size),Automatic with Manual Option,8,310,9.4,All-wheel Drive,Gas,18,9000,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Good,Yes
+Ford,Explorer,46,SUV (full-size),Automatic with Manual Option,6,290,8.2,All-wheel Drive,Gas,11.76,5000,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Poor,No
+Ford,F150,32.4,Truck (Full-size),Automatic,6,302,9,All-wheel Drive,Gas,11.5,5500,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Good,Yes
+Ford,Fiesta Hatchback,16.2,Hatchback,Manual,4,120,11.1,Front-wheel Drive,Gas,5.8,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Fair,No
+Ford,Fiesta Sedan,16.2,Sub-Compact (Sedan),Manual,4,120,11.3,Front-wheel Drive,Gas,5.8,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Fair,No
+Ford,Flex,30.5,Crossover,A,6,287,8.8,Front-wheel Drive,Gas,10.2,4500,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Good,Yes
+Ford,Focus Hatchback,21.3,Hatchback,Manual,4,160,9.7,Front-wheel Drive,Gas,6.7,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Poor,No
+Ford,Focus Sedan,17.7,Compact (Sedan),Manual,4,160,9.7,Front-wheel Drive,Gas,6.7,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Poor,No
+Ford,Fusion,24.2,Mid-size (Sedan),Automatic with Manual Option,4,170,N/A,Front-wheel Drive,Gas,7.7,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,N/A,N/A
+Ford,Mustang,26.2,Coupe,Manual,6,305,6.4,Rear-wheel Drive,Gas,8.8,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Good,Yes
+Ford,Shelby,63.4,Coupe,Manual,8,662,N/A,Rear-wheel Drive,Gas,11.4,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",N/A,N/A,N/A
+Ford,Super Duty,41,Truck (Full-size),Automatic,8,385,9,All-wheel Drive,Gas,14,14000,"3 years, 60k","5 years, 100k","5 years, unlimited",N/A,Poor,No
+Ford,Taurus,30.7,Full-Size (Sedan),Automatic with Manual Option,6,288,7.5,Front-wheel Drive,Gas,7.9,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Good,No
+GMC,Acadia,41.2,SUV (full-size),Automatic,6,288,8.2,All-wheel Drive,Gas,11.2,5200,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Good,Yes
+GMC,Sierra,32.4,Truck (full-size),Automatic,6,195,N/A,All-wheel Drive,Gas,13.4,9100,"3 years, 60k","5 years, 100k","5 years, unlimited",N/A,N/A,N/A
+GMC,Terrain,32.2,SUV (mid-size),Automatic,4,182,7.4,All-wheel Drive,Gas,8.7,1500,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Good,Yes
+GMC,Yukon,56,SUV (full-size),Automatic with Manual Option,8,320,N/A,All-wheel Drive,Gas,12.1,8200,"3 years, 60k","5 years, 100k","5 years, unlimited",N/A,N/A,No
+Honda,Accord,26.8,Full-Size (Sedan),Automatic with Manual Option,4,185,7.4,Front-wheel Drive,Gas,6.7,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Very Good,Yes
+Honda,Civic,16.9,Compact (Sedan),Manual,4,110,6.8,Front-wheel Drive,Gas,6.4,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Very Good,Yes
+Honda,Civic,26.5,Sedan,Manual,4,110,10.5,Front-wheel Drive,Hybrid,4.3,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Very Good,Yes
+Honda,Crosstour,39,Crossover,Automatic with Manual Option,6,278,6.7,Front-wheel Drive & AWD,Gas,9.3,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Very Good,No
+Honda,CRV,29.8,SUV (small-size),Automatic,4,185,8.8,All-wheel Drive,Gas,7.9,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Excellent,Yes
+Honda,CRZ,24.1,Hatchback,Manual,4,130,9,Front-wheel Drive,Hybrid,5.8,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Excellent,No
+Honda,Fit,16,Hatchback,Manual,4,117,8.8,Front-wheel Drive,Gas,6.5,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Excellent,Yes
+Honda,Insight,23.5,Hatchback,CVT,4,98,11.4,Front-wheel Drive,Hybrid,4.6,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Very Good,No
+Honda,Odyssey,31.6,Minivan,Automatic,6,248,8.4,Front-wheel Drive,Gas,9.2,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Good,Yes
+Honda,Pilot,39.6,SUV (mid-size),Automatic,6,250,8.6,All-wheel Drive,Gas,10.5,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Very Good,Yes
+Honda,Ridgeline,36.6,Truck (Full-size),Automatic with Manual Option,6,250,8.3,All-wheel Drive,Gas,11.8,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Very Good,Yes
+Hyundai,Accent Hatchback,15.3,Hatchback,Manual,4,138,8.2,Front-wheel Drive,Gas,6.3,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Good,Yes
+Hyundai,Accent Sedan,14.9,Sedan,Manual,4,138,9.94,Front-wheel Drive,Gas,6.3,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Good,Yes
+Hyundai,Elantra Hatchback,18.7,Hatchback,Manual,4,148,9.4,Front-wheel Drive,Gas,6.7,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Very Good,Yes
+Hyundai,Elantra Sedan,17.5,Sedan,Manual,4,148,9.2,Front-wheel Drive,Gas,6.2,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Very Good,Yes
+Hyundai,Equus,66.4,Sedan,Automatic,8,429,6.2,Rear-wheel Drive,Gas,11.4,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Good,Yes
+Hyundai,Genesis Coupe,28.3,Coupe,Manual,4,274,5.98,Rear-wheel Drive,Gas,8.5,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",N/A,Fair,No
+Hyundai,Genesis Sedan,41.9,Sedan,Automatic,6,333,5.98,Rear-wheel Drive,Gas,9.5,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Good,Yes
+Hyundai,Santa Fe,32.1,SUV,Automatic,4,190,10,All-wheel Drive,Gas,8.6,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,N/A,N/A
+Hyundai,Sonata,25.7,Sedan (Mid-size),Automatic,4,198,7.9,Front-wheel Drive,Gas,7.3,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Good,Yes
+Hyundai,Sonata,29.6,Sedan (Mid-size),Automatic,4,199,8.7,Front-wheel Drive,Hybrid,5.2,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Fair,No
+Hyundai,Tucson,28.4,SUV,Automatic with Manual Option,4,165,10,All-wheel Drive,Gas,9.2,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Good,Yes
+Hyundai,Veloster,21.3,Hatchback,Manual,4,148,8.8,Front-wheel Drive,Gas,6.5,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",N/A,Very Good,Yes
+Infiniti,EX,41.9,Crossover,Automatic with Manual Option,6,325,7,All-wheel Drive,Gas,10.1,N/A,"4 years, 100k","6 years, 110k","7 years, unlimited",Good,Very Good,Yes
+Infiniti,FX,55.4,SUV (mid-size),Automatic with Manual Option,6,325,7,All-wheel Drive,Gas,11,3500,"4 years, 100k","6 years, 110k","7 years, unlimited",Good,Very Good,Yes
+Infiniti,G Sedan,46,Mid-Size (Sedan),Automatic with Manual Option,6,327,5.8,All-wheel Drive,Gas,9.8,N/A,"4 years, 100k","6 years, 110k","7 years, unlimited",Good,Excellent,Yes
+Infiniti,G Convertible,59.3,Convertible,Automatic with Manual Option,6,330,6.2,All-wheel Drive,Gas,9.2,N/A,"4 years, 100k","6 years, 110k","7 years, unlimited",Good,Poor,No
+Infiniti,G Coupe,48.8,Coupe,Automatic with Manual Option,6,330,5.8,All-wheel Drive,Gas,9.2,N/A,"4 years, 100k","6 years, 110k","7 years, unlimited",Good,Excellent,Yes
+Infiniti,JX,46.9,Crossover,Automatic with Manual Option,6,265,8.6,All-wheel Drive,Gas,10,N/A,"4 years, 100k","6 years, 110k","7 years, unlimited",Good,Very Good,Yes
+Infiniti,M,54.7,Mid-size (Sedan),Automatic with Manual Option,6,330,6,Rear-wheel Drive,Gas,9.4,N/A,"4 years, 100k","6 years, 110k","7 years, unlimited",Good,Good,Yes
+Infiniti,QX,75.2,SUV (full-size),Automatic with Manual Option,8,400,7.2,All-wheel Drive,Gas,13,8500,"4 years, 100k","6 years, 110k","7 years, unlimited",N/A,Good,Yes
+Jeep,Compass,24.7,SUV (mid-size),Automatic,4,172,10.7,All-wheel Drive,Gas,8.8,1000,"3 years, 60k","5 years, 160k","5 years, 160k",N/A,Fair,No
+Jeep,Grand Cherokee,41.7,SUV (full-size),Automatic with Manual Option,6,290,8.3,All-wheel Drive,Gas,10.9,5000,"3 years, 60k","5 years, 160k","5 years, 160k",Good,Good,Yes
+Jeep,Patriot,23.9,SUV (small-size),Automatic,4,172,10.7,All-wheel Drive,Gas,8.8,1000,"3 years, 60k","5 years, 160k","5 years, 160k",Good,Very Good,No
+Jeep,Wrangler,26.4,SUV (mid-size),Automatic,6,290,9.2,All-wheel Drive,Gas,11,1000,"3 years, 60k","5 years, 160k","5 years, 160k",Marginal,Fair,No
+Kia,Cadenza,38.1,Full-Size (Sedan),Automatic with Manual Option,6,293,N/A,Front-wheel Drive,Gas,9.3,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,N/A,N/A
+Kia,Forte Hatchback,17,Hatchback,Manual,4,156,10.5,Front-wheel Drive,Gas,6.9,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",N/A,N/A,N/A
+Kia,Forte Sedan,16,Compact (Sedan),Manual,4,148,10.5,Front-wheel Drive,Gas,6.7,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",N/A,N/A,N/A
+Kia,Optima,24.7,Full-Size (Sedan),Automatic with Manual Option,4,200,8.9,Front-wheel Drive,Gas,7.1,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Good,Yes
+Kia,Optima,30.3,Full-Size (Sedan),Automatic with Manual Option,4,205,N/A,Front-wheel Drive,Hybrid,5.2,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",N/A,N/A,N/A
+Kia,Rio Hatchback,13.9,Hatchback,Manual,4,138,9.9,Front-wheel Drive,Gas,6.1,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Very Good,Yes
+Kia,Rio Sedan,13.9,Sub-Compact (Sedan),Manual,4,138,9.9,Front-wheel Drive,Gas,6.1,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Very Good,Yes
+Kia,Rondo,21.8,Wagon,Manual,4,164,N/A,Front-wheel Drive,Gas,7.8,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",N/A,N/A,No
+Kia,Sedona,28.6,Minivan,Automatic with Manual Option,6,269,8.6,Front-wheel Drive,Gas,10.3,3500,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Good,Yes
+Kia,Sorento,29,SUV (mid-size),Automatic with Manual Option,4,191,N/A,All-wheel Drive,Gas,9.4,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,N/A,N/A
+Kia,Soul,16.8,Hatchback,Manual,4,138,8.9,Front-wheel Drive,Gas,7.3,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Good,Yes
+Kia,Sportage,27.3,SUV (small-size),Automatic with Manual Option,4,176,10.7,All-wheel Drive,Gas,8.8,2000,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Excellent,Yes
+Land Rover,Evoque,49,SUV (mid-size),Automatic with Manual Option,4,240,7.6,All-wheel Drive,Gas,9.1,1650,"4 years, 80k","4 years, 80k","6 years, unlimited",N/A,N/A,N/A
+Land Rover,LR2,42,SUV (small-size),Automatic with Manual Option,4,240,8.8,All-wheel Drive,Gas,10.4,2000,"4 years, 80k","4 years, 80k","6 years, unlimited",N/A,N/A,N/A
+Land Rover,LR4,61.5,SUV (mid-size),Automatic with Manual Option,8,375,7.9,All-wheel Drive,Gas,14.6,3500,"4 years, 80k","4 years, 80k","6 years, unlimited",N/A,N/A,N/A
+Land Rover,Range Rover,75.7,SUV (full-size),Automatic with Manual Option,8,375,8.9,All-wheel Drive,Gas,14.3,7716,"4 years, 80k","4 years, 80k","6 years, unlimited",N/A,N/A,N/A
+Lexus,CT,33.5,Hatchback,Automatic with Manual Option,4,134,11.4,Front-wheel Drive,Hybrid,4.6,N/A,"4 years, 80k","8 years, 160k","6 years, unlimited",Good,Excellent,Yes
+Lexus,ES,41.5,Mid-size (Sedan),Automatic with Manual Option,6,268,7,Front-wheel Drive,Gas,8.3,N/A,"4 years, 80k","6 years, 110k","6 years, unlimited",Good,Very Good,Yes
+Lexus,ES,45.9,Mid-size (Sedan),Automatic with Manual Option,4,200,8.5,Front-wheel Drive,Hybrid,4.8,N/A,"4 years, 80k","8 years, 160k","6 years, unlimited",Good,Very Good,Yes
+Lexus,GS,53.9,Mid-size (Sedan),Automatic with Manual Option,6,306,6.4,Rear-wheel Drive,Gas,9.1,N/A,"4 years, 80k","6 years, 110k","6 years, unlimited",Good,Very Good,Yes
+Lexus,GS,66.7,Mid-size (Sedan),Automatic with Manual Option,6,338,N/A,Rear-wheel Drive,Hybrid,6.4,N/A,"4 years, 80k","8 years, 160k","6 years, unlimited",Good,Very Good,Yes
+Lexus,GX,64.5,SUV (mid-size),Automatic with Manual Option,8,301,7.8,All-wheel Drive,Gas,12.1,6500,"4 years, 80k","6 years, 110k","6 years, unlimited",N/A,Good,Yes
+Lexus,IS,39.3,Compact (Sedan),Automatic with Manual Option,6,204,N/A,Rear-wheel Drive,Gas,8.3,N/A,"4 years, 80k","6 years, 110k","6 years, unlimited",N/A,N/A,N/A
+Lexus,LS,85,Full-Size (Sedan),Automatic with Manual Option,8,386,6.4,Rear-wheel Drive,Gas,10.8,N/A,"4 years, 80k","6 years, 110k","6 years, unlimited",Good,Very Good,Yes
+Lexus,LS,133.2,Full-Size (Sedan),Automatic with Manual Option,8,389,N/A,All-wheel Drive,Hybrid,9.9,N/A,"4 years, 80k","8 years, 160k","6 years, unlimited",N/A,N/A,N/A
+Lexus,LX,89.5,SUV (full-size),Automatic with Manual Option,8,383,N/A,All-wheel Drive,Gas,14.5,7000,"4 years, 80k","6 years, 110k","6 years, unlimited",N/A,N/A,N/A
+Lexus,RX,47,SUV (mid-size),Automatic with Manual Option,6,270,7.6,All-wheel Drive,Gas,10.2,3500,"4 years, 80k","6 years, 110k","6 years, unlimited",Good,Excellent,Yes
+Lexus,RX,58.8,SUV (mid-size),Automatic with Manual Option,6,295,8,All-wheel Drive,Hybrid,6.9,3500,"4 years, 80k","8 years, 160k","6 years, unlimited",Good,Excellent,Yes
+Lincoln,MKS,49.8,Full-Size (Sedan),Automatic with Manual Option,6,304,7.4,All-wheel Drive,Gas,9.8,N/A,"4 years, 80k","6 years, 110k","5 years, unlimited",Good,Good,No
+Lincoln,MKT,51.6,Wagon,Automatic with Manual Option,6,365,N/A,All-wheel Drive,Gas,11.3,4500,"4 years, 80k","6 years, 110k","5 years, unlimited",Good,N/A,N/A
+Lincoln,MKX,49.5,Crossover,Automatic with Manual Option,6,305,11,All-wheel Drive,Gas,11,3500,"4 years, 80k","6 years, 110k","5 years, unlimited",Good,Poor,No
+Lincoln,MKZ,40.1,Mid-size (Sedan),Automatic with Manual Option,4,240,7.7,Front-wheel Drive,Gas,8,N/A,"4 years, 80k","6 years, 110k","5 years, unlimited",Good,N/A,N/A
+Lincoln,Navigator,76.6,SUV (full-size),Automatic with Manual Option,8,310,9.1,All-wheel Drive,Gas,13.9,8800,"4 years, 80k","6 years, 110k","5 years, unlimited",N/A,Good,Yes
+Mazda,CX5,29.8,SUV (mid-size),Automatic with Manual Option,4,155,10.4,All-wheel Drive,Gas,7.2,2000,"3 years, 80k","5 years, 100k",8 years,Good,Excellent,Yes
+Mazda,CX9,35.8,Crossover,Automatic,6,273,8.5,Front-wheel Drive,Gas,10.5,3500,"3 years, 80k","5 years, 100k",8 years,Good,Excellent,Yes
+Mazda,Mazda 2,15.9,Hatchback,Manual,4,100,11.5,Front-wheel Drive,Gas,6.2,N/A,"3 years, 80k","5 years, 100k",8 years,Good,Very Good,Yes
+Mazda,Mazda 3,17.6,Hatchback,Manual,4,148,8.6,Front-wheel Drive,Gas,7.1,N/A,"3 years, 80k","5 years, 100k",8 years,Good,Excellent,Yes
+Mazda,Mazda 5,23.8,Wagon,Manual,4,157,9.9,Front-wheel Drive,Gas,8.2,N/A,"3 years, 80k","5 years, 100k",8 years,N/A,Excellent,Yes
+Mazda,Mazda 6,26.1,Mid-Size (Sedan),Manual,4,184,7.7,Front-wheel Drive,Gas,6.7,N/A,"3 years, 80k","5 years, 100k",8 years,Good,Very Good,Yes
+Mazda,MX5,31,Convertible,Manual,4,158,7.3,All wheel drive,Gas,8.1,N/A,"3 years, 80k","5 years, 100k",8 years,N/A,Very Good,Yes
+Mercedes,B Class,30.5,Hatchback,Automatic with Manual Option,4,258,6.8,Front-wheel Drive,Gas,6.8,N/A,"4 years, 80k","4 years, 80k","4 years, 80k",N/A,N/A,N/A
+Mercedes,C Class,41.7,Mid-size (Sedan),Automatic with Manual Option,4,201,7.2,Rear-wheel Drive,Gas,8.1,N/A,"4 years, 80k","4 years, 80k","4 years, 80k",Good,Very Good,Yes
+Mercedes,CL,142.5,Coupe,Automatic with Manual Option,8,429,4.9,All-wheel Drive,Gas,N/A,N/A,"4 years, 80k","4 years, 80k","4 years, 80k",N/A,N/A,N/A
+Mercedes,CLA,35.9,Coupe,Automatic with Manual Option,4,208,6.7,Front-wheel Drive,Gas,N/A,N/A,"4 years, 80k","4 years, 80k","4 years, 80k",N/A,N/A,N/A
+Mercedes,CLS,87,Coupe,Automatic with Manual Option,8,402,5.2,All-wheel Drive,Gas,10.2,N/A,"4 years, 80k","4 years, 80k","4 years, 80k",N/A,N/A,N/A
+Mercedes,E Class,59.8,Mid-size (Sedan),Automatic with Manual Option,4,195,7.9,All-wheel Drive,Gas,N/A,N/A,"4 years, 80k","4 years, 80k","4 years, 80k",Good,Very Good,Yes
+Mercedes,GL,75.7,SUV (full-size),Automatic with Manual Option,6,240,8.4,All-wheel Drive,Diesel,10.5,7800,"4 years, 80k","4 years, 80k","4 years, 80k",N/A,N/A,N/A
+Mercedes,GLK,45.5,SUV (mid-size),Automatic with Manual Option,4,200,8,All-wheel Drive,Diesel,7.6,3500,"4 years, 80k","4 years, 80k","4 years, 80k",Good,Average,Yes
+Mercedes,M Class,61.9,SUV (mid-size),Automatic with Manual Option,6,302,7.6,All-wheel Drive,Gas,10.6,7200,"4 years, 80k","4 years, 80k","4 years, 80k",Good,Fair,No
+Mercedes,R Class,59.8,Crossover,Automatic with Manual Option,6,302,8.4,All-wheel Drive,Gas,11.7,N/A,"4 years, 80k","4 years, 80k","4 years, 80k",N/A,N/A,N/A
+Mercedes,S Class,111.9,Full-Size (Sedan),Automatic with Manual Option,6,240,7.1,All-wheel Drive,Diesel,8.4,N/A,"4 years, 80k","4 years, 80k","4 years, 80k",N/A,N/A,N/A
+Mercedes,SL,125.9,Convertible,Automatic with Manual Option,8,429,4.6,Rear-wheel Drive,Gas,10,N/A,"4 years, 80k","4 years, 80k","4 years, 80k",N/A,N/A,N/A
+Mercedes,SLK,54.2,Convertible,Manual,4,201,6.5,Rear-wheel Drive,Gas,7.1,N/A,"4 years, 80k","4 years, 80k","4 years, 80k",N/A,N/A,N/A
+Mercedes,SLS AMG,209.9,Coupe,Automatic with Manual Option,8,563,3.8,Rear-wheel Drive,Gas,13.8,N/A,"4 years, 80k","4 years, 80k","4 years, 80k",N/A,N/A,N/A
+Mini,Mini Clubman,27.3,Mini Car,Manual,4,121,9.6,Front-wheel Drive,Gas,6.6,N/A,"4 years, 80k","4 years, 80k","12 years, unlimited",Acceptable,Excellent,No
+Mini,Mini Countryman,27.8,Mini Car,Manual,4,121,10.7,Front-wheel Drive,Gas,6.6,N/A,"4 years, 80k","4 years, 80k","12 years, unlimited",Good,Poor,No
+Mini,Mini,26.3,Mini Car,Manual,4,121,9,Front-wheel Drive,Gas,6.1,N/A,"4 years, 80k","4 years, 80k","12 years, unlimited",Good,Poor,No
+Mini,Mini Convertible,31.8,Mini Car,Manual,4,121,9.6,Front-wheel Drive,Gas,6.6,N/A,"4 years, 80k","4 years, 80k","12 years, unlimited",N/A,N/A,N/A
+Mini,Mini Coupe,28.3,Mini Car,Manual,4,121,8.9,Front-wheel Drive,Gas,6.1,N/A,"4 years, 80k","4 years, 80k","12 years, unlimited",N/A,N/A,N/A
+Mitsubishi,iMiev,34.7,Hatchback,Direct,N/A,66,15.2,Rear-wheel Drive,Electric,N/A,N/A,"3 years, 50k","5 years, 100k","5 years, unlimited",N/A,N/A,N/A
+Mitsubishi,Lancer Hatchback,21.4,Hatchback,Manual,4,148,10.1,Front-wheel Drive,Gas,7.3,N/A,"3 years, 50k","5 years, 100k","5 years, unlimited",Good,N/A,No
+Mitsubishi,Lancer Sedan,16.6,Compact (Sedan),Manual,4,148,10.1,Front-wheel Drive,Gas,7.1,N/A,"3 years, 50k","5 years, 100k","5 years, unlimited",Good,N/A,No
+Mitsubishi,Outlander,29.7,SUV (mid-size),Automatic,4,166,N/A,All-wheel Drive,Gas,7.8,N/A,"5 years, 100k","10 years, 160k","5 years, unlimited",N/A,N/A,N/A
+Mitsubishi,RVR,27.4,SUV (small-size),Automatic,4,148,N/A,All-wheel Drive,Gas,N/A,N/A,"3 years, 50k","5 years, 100k","5 years, unlimited",N/A,N/A,N/A
+Nissan,370Z,42.6,Coupe,Manual,6,332,5.5,Rear-wheel Drive,Gas,9.9,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",N/A,Very Good,Yes
+Nissan,Altima,25.3,Mid-size (Sedan),Automatic with Manual Option,4,175,8.5,Front-wheel Drive,Gas,6.2,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Very Good,Yes
+Nissan,Altima Coupe,30.5,Coupe,Automatic with Manual Option,4,182,8.5,Front-wheel Drive,Gas,7.6,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",N/A,N/A,N/A
+Nissan,Armada,61,SUV (full-size),Automatic with Manual Option,8,317,7.5,All-wheel Drive,Gas,14.4,9000,"3 years, 60k","5 years, 100k","5 years, unlimited",N/A,Poor,No
+Nissan,Cube,19.4,Hatchback,Manual,4,122,10.3,Front-wheel Drive,Gas,7.4,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Good,No
+Nissan,Frontier,27.7,Truck (mid-size),Automatic,6,261,8.2,All-wheel Drive,Gas,12.6,6300,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Very Good,Yes
+Nissan,GTR,108,Coupe,Manual,6,545,N/A,All-wheel Drive,Gas,11.1,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",N/A,N/A,N/A
+Nissan,Juke,25.3,SUV (small-size),Automatic with Manual Option,4,188,8.2,All-wheel Drive,Gas,7.3,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Good,Yes
+Nissan,Leaf,33.8,Hatchback,Direct,N/A,N/A,10.7,Front-wheel Drive,Electric,2.3,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Excellent,Yes
+Nissan,Maxima,39.7,Mid-size (Sedan),Automatic with Manual Option,6,290,6.4,Front-wheel Drive,Gas,9.3,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Very Good,Yes
+Nissan,Murano,36.4,SUV (mid-size),Automatic with Manual Option,6,260,7.9,All-wheel Drive,Gas,10,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Very Good,Yes
+Nissan,Pathfinder,33.7,SUV (mid-size),Automatic with Manual Option,6,260,8,All-wheel Drive,Gas,9,5000,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,N/A,N/A
+Nissan,Quest,31.9,Minivan,Automatic with Manual Option,6,260,8.7,Front-wheel Drive,Gas,9.5,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Good,Yes
+Nissan,Rogue,28.6,SUV (mid-size),Automatic with Manual Option,4,170,9.2,All-wheel Drive,Gas,8.7,1500,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Very Good,Yes
+Nissan,Sentra,16.5,Compact (Sedan),Manual,4,130,10,Front-wheel Drive,Gas,6.5,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",N/A,N/A,N/A
+Nissan,Versa Note,15,Hatchback,Manual,4,107,N/A,Front-wheel Drive,Gas,6.4,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",N/A,N/A,N/A
+Nissan,Versa Sedan,13.6,Sub-Compact (Sedan),Manual,4,109,11,Front-wheel Drive,Gas,6.4,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Poor,No
+Nissan,Xterra,33.9,SUV (mid-size),Automatic with Manual Option,6,261,8,All-wheel Drive,Gas,12.3,5000,"3 years, 60k","5 years, 100k","5 years, unlimited",N/A,Good,No
+Porsche,911,97.3,Coupe,Automatic with Manual Option,6,350,4.8,Rear-wheel Drive,Gas,9.3,N/A,"4 years, 80k","4 years, 80k","10 years, unlimited",N/A,N/A,N/A
+Porsche,Boxter,58.6,Convertible,Manual,6,265,5.8,Rear-wheel Drive,Gas,8.6,N/A,"4 years, 80k","4 years, 80k","10 years, unlimited",N/A,N/A,N/A
+Porsche,Cayenne,62,SUV (full-size),Automatic with Manual Option,6,300,7.5,All-wheel Drive,Gas,11.9,7700,"4 years, 80k","4 years, 80k","10 years, unlimited",N/A,Poor,No
+Porsche,Cayman,61,Coupe,Manual,6,275,5.7,Rear-wheel Drive,Gas,N/A,N/A,"4 years, 80k","4 years, 80k","10 years, unlimited",N/A,N/A,N/A
+Porsche,Panamera,90.6,Coupe,Automatic with Manual Option,6,310,6.3,Rear-wheel Drive,Gas,N/A,N/A,"4 years, 80k","4 years, 80k","10 years, unlimited",N/A,N/A,N/A
+Subaru,BRZ,29.2,Coupe,Manual,4,200,7.5,All-wheel Drive,Gas,8.5,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Very Good,Yes
+Subaru,Forester,29.3,SUV (mid-size),Automatic with Manual Option,4,170,9,All-wheel Drive,Gas,7.3,1500,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Very Good,Yes
+Subaru,Impreza Hatchback,22.5,Hatchback,Manual,4,148,9.5,All-wheel Drive,Gas,7.1,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Excellent,Yes
+Subaru,Impreza Sedan,21.6,Compact (Sedan),Manual,4,148,9.5,All-wheel Drive,Gas,7.1,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Excellent,Yes
+Subaru,Legacy,26.7,Full-Size (Sedan),Automatic with Manual Option,4,173,9.4,All-wheel Drive,Gas,7.2,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Very Good,Yes
+Subaru,Outback,32.6,Crossover,Automatic with Manual Option,4,173,10.7,All-wheel Drive,Gas,7.6,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Excellent,Yes
+Subaru,Tribeca,40.9,SUV (mid-size),Automatic with Manual Option,6,256,8.9,All-wheel Drive,Gas,11.3,3500,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,N/A,No
+Subaru,WRX,35.3,Hatchback,Manual,4,265,5.5,All-wheel Drive,Gas,11.1,N/A,"5 years, 100k","5 years, 100k","5 years, unlimited",N/A,Good,Yes
+Subaru,XV Crosstek,27.4,SUV (small-size),Automatic with Manual Option,4,148,10,All-wheel Drive,Gas,7.1,1500,"5 years, 100k","5 years, 100k","5 years, unlimited",Good,Very Good,Yes
+Titan,Titan,43.7,Truck (Full-size),Automatic,8,317,7.5,All-wheel Drive,Gas,15,9400,"3 years, 60k","5 years, 100k","5 years, unlimited",N/A,Fair,No
+Toyota,4Runner,39.4,SUV (mid-size),Automatic with Manual Option,6,270,8,All-wheel Drive,Gas,11.2,5000,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Excellent,No
+Toyota,Avalon,38.4,Full-Size (Sedan),Automatic with Manual Option,6,268,7.3,Front-wheel Drive,Gas,8.3,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Very Good,Yes
+Toyota,Camry,25.3,Full-Size (Sedan),Automatic,4,178,8.7,Front-wheel Drive,Gas,7,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Excellent,Yes
+Toyota,Camry,29.3,Full-Size (Sedan),Automatic,4,200,7.9,Front-wheel Drive,Hybrid,4.7,N/A,"3 years, 60k","5 years, 160k","5 years, unlimited",Good,Excellent,Yes
+Toyota,Corolla,17,Compact (Sedan),Manual,4,132,9.3,Front-wheel Drive,Gas,6.6,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Excellent,Yes
+Toyota,FJ Cruiser,35,SUV (mid-size),Automatic with Manual Option,6,260,8.3,All-wheel Drive,Gas,11.3,5000,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Excellent,No
+Toyota,Highlander,37.5,SUV (full-size),Automatic with Manual Option,6,248,8.3,All-wheel Drive,Gas,10.4,5000,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Excellent,Yes
+Toyota,Highlander,45,SUV (full-size),Automatic with Manual Option,6,280,7.9,All-wheel Drive,Hybrid,6.9,3500,"3 years, 60k","5 years, 160k","5 years, unlimited",Good,Very Good,Yes
+Toyota,Matrix,18.3,Hatchback,Manual,4,132,10.3,Front-wheel Drive,Gas,8,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Excellent,Yes
+Toyota,Prius,27.7,Hatchback,Automatic,4,134,11,Front-wheel Drive,Hybrid,3.8,N/A,"3 years, 60k","5 years, 160k","5 years, unlimited",Good,Excellent,Yes
+Toyota,Prius C,22,Hatchback,Automatic,4,99,11.7,Front-wheel Drive,Hybrid,3.7,N/A,"3 years, 60k","5 years, 160k","5 years, unlimited",Good,Excellent,No
+Toyota,Prius Plug in,37.3,Hatchback,Automatic,4,134,11,Front-wheel Drive,Electric,2,N/A,"3 years, 60k","5 years, 160k","5 years, unlimited",Good,Excellent,Yes
+Toyota,Prius V,28,Hatchback,Automatic,4,134,11.1,Front-wheel Drive,Hybrid,4.5,N/A,"3 years, 60k","5 years, 160k","5 years, unlimited",Good,Very Good,Yes
+Toyota,RAV4,27.6,SUV (mid-size),Automatic with Manual Option,4,176,9.3,All-wheel Drive,Gas,8.1,1500,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Very Good,Yes
+Toyota,Sequoia,53.5,SUV (full-size),Automatic with Manual Option,8,381,7.4,All-wheel Drive,Gas,14.8,7100,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Excellent,Yes
+Toyota,Sienna,29.8,Minivan,Automatic with Manual Option,4,187,N/A,Front-wheel Drive,Gas,9.1,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Good,Yes
+Toyota,Tacoma,29.1,Truck (mid-size),Automatic with Manual Option,4,159,N,All-wheel Drive,Gas,9.4,3500,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Good,No
+Toyota,Tundra,31.6,Truck (Full-size),Automatic with Manual Option,8,381,7,All-wheel Drive,Gas,14.3,9700,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Very Good,Yes
+Toyota,Venza,32.1,Crossover,Automatic with Manual Option,4,182,9,All-wheel Drive,Gas,8.8,2500,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,Very Good,Yes
+Toyota,Yaris,15.8,Hatchback,Manual,4,106,11.2,Front-wheel Drive,Gas,6,N/A,"3 years, 60k","5 years, 100k","5 years, unlimited",Good,N/A,No
+Volkswagen,Beetle,23.6,Hatchback,Manual,5,170,8.9,Front-wheel Drive,Gas,8.2,N/A,"4 years, 80k","5 years, 100k","12 years, unlimited",Good,Poor,No
+Volkswagen,Beetle Convertible,33.2,Convertible,Automatic with Manual Option,5,170,N/A,Front-wheel Drive,Gas,8.6,N/A,"4 years, 80k","5 years, 100k","12 years, unlimited",N/A,N/A,No
+Volkswagen,CC,36.6,Coupe,Manual,4,200,7.8,Front-wheel Drive,Gas,8.3,N/A,"4 years, 80k","5 years, 100k","12 years, unlimited",Good,Good,Yes
+Volkswagen,Eos,41.4,Convertible,Automatic with Manual Option,4,200,8.2,Front-wheel Drive,Gas,8.1,N/A,"4 years, 80k","5 years, 100k","12 years, unlimited",Good,Good,Yes
+Volkswagen,Golf,21.4,Hatchback,Manual,5,170,9.7,Front-wheel Drive,Gas,8,N/A,"4 years, 80k","5 years, 100k","12 years, unlimited",Good,Very Good,Yes
+Volkswagen,Golf  Wagon,24.4,Wagon,Manual,5,170,9.7,Front-wheel Drive,Gas,7.8,N/A,"4 years, 80k","5 years, 100k","12 years, unlimited",Good,Very Good,Yes
+Volkswagen,Jetta,16.4,Compact (Sedan),Manual,4,115,10,Front-wheel Drive,Gas,7.6,N/A,"4 years, 80k","5 years, 100k","12 years, unlimited",Good,Fair,No
+Volkswagen,Passat,26.8,Mid-Size (Sedan),Automatic with Manual Option,5,170,10,Front-wheel Drive,Gas,8.1,N/A,"4 years, 80k","5 years, 100k","12 years, unlimited",Good,Very Good,Yes
+Volkswagen,Tiguan,30.6,SUV (mid-size),Automatic with Manual Option,4,200,8.8,All-wheel Drive,Gas,9,2200,"4 years, 80k","5 years, 100k","12 years, unlimited",Good,Good,Yes
+Volkswagen,Touareg,51.3,SUV (full-size),Automatic with Manual Option,6,280,N/A,All-wheel Drive,Gas,10.6,N/A,"4 years, 80k","5 years, 100k","12 years, unlimited",Good,N/A,No

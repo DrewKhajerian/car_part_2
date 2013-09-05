@@ -1,0 +1,41 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  price_range: MyString
+  type: 
+  seats: MyString
+  transmission: MyString
+  drive_train: MyString
+  fuel_type: MyString
+  fuel_consumption: MyString
+  towing: MyString
+  ride_handling: MyString
+  head_room: MyString
+  leg_room: MyString
+  shoulder_room: MyString
+  trunk_space: MyString
+  reliability: MyString
+  bump_to_bump: MyString
+  war_power: MyString
+  war_rust: MyString
+  safety: MyString
+
+two:
+  price_range: MyString
+  type: 
+  seats: MyString
+  transmission: MyString
+  drive_train: MyString
+  fuel_type: MyString
+  fuel_consumption: MyString
+  towing: MyString
+  ride_handling: MyString
+  head_room: MyString
+  leg_room: MyString
+  shoulder_room: MyString
+  trunk_space: MyString
+  reliability: MyString
+  bump_to_bump: MyString
+  war_power: MyString
+  war_rust: MyString
+  safety: MyString

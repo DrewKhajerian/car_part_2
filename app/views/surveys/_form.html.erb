@@ -1,0 +1,199 @@
+<%= form_for @survey do |f| %>
+    <% if @survey.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(@survey.errors.count, "error") %> prohibited this reservation from being saved:</h2>
+        <ul>
+          <% @survey.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+    
+    <h4>Price Range</h4>
+
+    <div class="inline">
+      <div class="field">
+        <a href="#" class="popper" data-popbox="minp-pop">
+          <%= f.label :min_price, "Minimum (in thousand $)" %></a>
+        <div id="minp-pop" class="popbox">
+            <p><%= @minp_desc %></p>
+        </div>
+        <%= f.select :min_price, @MIN_PRICE %>
+      </div>
+    </div>
+    <div class="inline">
+      <div class="field">
+        <a href="#" class="popper" data-popbox="maxp-pop">
+          <%= f.label :max_price, "Maximum (in thousand $)" %></a>
+        <div id="maxp-pop" class="popbox">
+            <p><%= @maxp_desc %></p>
+        </div>
+        <%= f.select :max_price, @MAX_PRICE %>
+      </div>
+    </div>
+    <hr>
+
+    <h4>Car Class</h4>
+
+    <div class="inline">
+      <div class="field">
+        <a href="#" class="popper" data-popbox="class-pop">
+          <%= f.label :vehicle_type, "Vehicle Class" %></a>
+        <div id="class-pop" class="popbox">
+            <p><%= @class_desc %></p>
+        </div>
+        <%= f.select :vehicle_type, @TYPES%>
+      </div>
+    </div>
+    <div class="inline">
+      <div class="field">
+        <a href="#" class="popper" data-popbox="trans-pop">
+          <%= f.label :transmission %></a>
+        <div id="trans-pop" class="popbox">
+            <p><%= @trans_desc %></p>
+        </div>
+        <%= f.select :transmission, @TRANS %>
+      </div>
+    </div>
+    <div class="inline">
+       <div class="field">
+        <a href="#" class="popper" data-popbox="dt-pop">
+          <%= f.label :drive_train, "Drive Train" %></a>
+        <div id="dt-pop" class="popbox">
+            <p><%= @dt_desc %></p>
+        </div>
+        <%= f.select :drive_train, @DRIVE_TRAINS %>
+      </div>
+    </div>
+    <hr>
+
+    <h4>Engine and Performance</h4>
+
+    <div class="inline">
+      <div class="field">
+        <a href="#" class="popper" data-popbox="horse-pop">
+          <%= f.label :horsepower, "Min Horsepower" %></a>
+        <div id="horse-pop" class="popbox">
+            <p><%= @horse_desc %></p>
+        </div>
+        <%= f.select :horsepower, @HORSEPOWER %>
+      </div>
+    </div>
+    <div class="inline">
+      <div class="field">
+        <a href="#" class="popper" data-popbox="cylinder-pop">
+          <%= f.label :cylinders %></a>
+        <div id="cylinder-pop" class="popbox">
+            <p><%= @cylinder_desc %></p>
+        </div>
+        <%= f.select :cylinders, @CYLINDERS %>
+      </div>
+    </div>
+    <div class="inline">
+      <div class="field">
+        <a href="#" class="popper" data-popbox="accel-pop">
+          <%= f.label :acceleration, "Min Acceleration" %></a>
+        <div id="accel-pop" class="popbox">
+            <p><%= @accel_desc %></p>
+        </div>
+        <%= f.select :acceleration, @ACCELERATIONS %>
+      </div>
+    </div>
+    <div class="inline">
+      <div class="field">
+        <a href="#" class="popper" data-popbox="tow-pop">
+          <%= f.label :towing, "Towing Capacity" %></a>
+        <div id="tow-pop" class="popbox">
+            <p><%= @tow_desc %></p>
+        </div>
+        <%= f.select :towing, @TOWING %>
+      </div>
+    </div>
+    <hr>
+
+    <h4>Quality</h4>
+
+    <div class="inline">
+      <div class="field">
+        <a href="#" class="popper" data-popbox="safety-pop">
+          <%= f.label :safety %></a>
+        <div id="safety-pop" class="popbox">
+            <p><%= @safety_desc %></p>
+        </div>
+        <%= f.select :safety, @SAFETY %>
+      </div>
+    </div>
+    <div class="inline">
+      <div class="field">
+        <a href="#" class="popper" data-popbox="relia-pop">
+          <%= f.label :reliability %></a>
+        <div id="relia-pop" class="popbox">
+            <p><%= @relia_desc %></p>
+        </div>
+        <%= f.select :reliability, @RELIABILTY %>
+      </div>
+    </div>
+    <hr>
+
+    <h4>Fuel</h4>
+   
+    <div class="inline">
+      <div class="field">
+        <a href="#" class="popper" data-popbox="fuel-pop">
+          <%= f.label :fuel_type, "Fuel Type" %></a>
+        <div id="fuel-pop" class="popbox">
+            <p><%= @fuel_desc %></p>
+        </div>
+        <%= f.select :fuel_type, @FUEL_TYPES %>
+      </div>
+    </div>
+    <div class="inline">
+      <div class="field">
+        <a href="#" class="popper" data-popbox="consump-pop">
+          <%= f.label :fuel_consumption, "Maximum Fuel Consumption(miles/L)" %></a>
+        <div id="consump-pop" class="popbox">
+            <p><%= @consump_desc %></p>
+        </div>
+        <%= f.select :fuel_consumption, @FUEL_CONSUMPTIONS %>
+      </div>
+    </div>
+    <hr>
+
+    <h4>Warranty</h4>
+
+    <div class="inline">
+      <div class="field">
+        <a href="#" class="popper" data-popbox="bump-pop">
+          <%= f.label :bump_to_bump, "Bumper to Bumper" %></a>
+        <div id="bump-pop" class="popbox">
+            <p><%= @bump_desc %></p>
+        </div>
+        <%= f.select :bump_to_bump, @BUMP_TO_BUMP %>
+      </div>
+    </div>
+    <div class="inline">
+      <div class="field">
+        <a href="#" class="popper" data-popbox="pt-pop">
+          <%= f.label :war_power, "Power Train" %></a>
+        <div id="pt-pop" class="popbox">
+            <p><%= @pt_desc %></p>
+        </div>
+        <%= f.select :war_power, @WAR_POWER %>
+      </div>
+    </div>
+    <div class="inline">
+      <div class="field">
+        <a href="#" class="popper" data-popbox="rust-pop">
+          <%= f.label :war_rust, "Rust & Corrosion" %></a>
+        <div id="rust-pop" class="popbox">
+            <p><%= @rust_desc %></p>
+        </div>
+        <%= f.select :war_rust, @WAR_RUST %>
+      </div>
+    </div>
+    <div class="actions">
+      <%= f.submit "Get Results", :class => "btn-large btn-primary" %>
+    </div>
+  <% end %>
+<% else %>
